@@ -24,7 +24,7 @@ public class EmployeeDaoMybatis implements EmployeeDao {
 	@Override
 	public int insert() {
 		Employee emp = new Employee();
-		emp.setEmp_id("223");
+		emp.setEmp_id("215");
 		emp.setEmp_name("김형태5");
 		emp.setEmp_email("kht@kht.com");
 		emp.setEmp_tel("010-7777-7777");
